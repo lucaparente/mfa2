@@ -1,49 +1,20 @@
 {
   "name": "cordova-plugin-mfa2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MeyerWerft MFA V.2",
-  "types": "./types/index.d.ts",
   "cordova": {
     "id": "cordova-plugin-mfa2",
-    "platforms": [
-      "android",
-      "ios"
-    ]
+    "platforms": []
   },
-  "engines": {
-    "cordovaDependencies": {
-      "0.0.1": {
-        "cordova-plugin-inappbrowser": "3.1.0"
-      }
-    }
-  },
-  "keywords": [
-    "cordova",
-    "mfa",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
-  ],
-  "scripts": {
-    "test": "npm run eslint",
-    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
-  },
-  "author": "Luca Parente",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-semistandard": "^11.0.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-node": "^5.0.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
-  },
-  "main": "mfa.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucaparente/mfa2.git"
   },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Neptune Software",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucaparente/mfa2/issues"
   },
